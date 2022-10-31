@@ -64,7 +64,7 @@ pipeline {
                         ls -l
                         pwd
                         echo "mvn install"
-                        sh '''
+                        sh '''kkkk
 		}
 	}
 	    stage ('mvn deploy'){
