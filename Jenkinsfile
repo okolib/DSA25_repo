@@ -59,7 +59,7 @@ pipeline {
 	}
 	stage ('mvn build'){
 		steps {
-			sh '''
+			sh '''kk
                         cd ${WORKSPACE}/javacode/hello_world/
                         ls -l
                         pwd
