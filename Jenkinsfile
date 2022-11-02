@@ -69,7 +69,7 @@ pipeline {
 	}
 	    stage ('mvn deploy'){
 		steps {
-			sh '''kk
+			sh '''
                         cd ${WORKSPACE}/javacode/hello_world/
                         echo "mvn deploy"
                         sh '''
